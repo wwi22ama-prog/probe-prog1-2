@@ -9,10 +9,6 @@ package aufgabe2
 // der Elemente aus list bis zu Stelle n enthält.
 func ArrayProducts(list []int) []int {
 	result := []int{}
-	product := 1
-	for _, el := range list {
-		product *= el
-		result = append(result, product)
-	}
+	// TODO
 	return result
 }

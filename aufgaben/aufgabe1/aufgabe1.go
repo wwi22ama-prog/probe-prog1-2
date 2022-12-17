@@ -8,10 +8,6 @@ package aufgabe1
 // Für n == 0 ist das Verhalten nicht definiert, aber die Funktion darf nicht abstürzen.
 func Divisors(n int) []int {
 	result := []int{}
-	for i := 1; i <= n; i++ {
-		if n%i == 0 {
-			result = append(result, i)
-		}
-	}
+	// TODO
 	return result
 }

@@ -7,10 +7,6 @@ package aufgabe4
 // Liefert eine Liste mit allen Werten aus list, außer x.
 func FilterX(list []int, x int) []int {
 	result := []int{}
-	for _, el := range list {
-		if el != x {
-			result = append(result, el)
-		}
-	}
+	// TODO
 	return result
 }

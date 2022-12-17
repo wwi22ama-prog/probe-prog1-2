@@ -11,9 +11,7 @@ package aufgabe5
 func (dict Dictionary) HasDuplicates() bool {
 	for i, entry1 := range dict.Entries {
 		for _, entry2 := range dict.Entries[i+1:] {
-			if entry1 == entry2 {
-				return true
-			}
+			return entry1.De == entry2.En
 		}
 	}
 	return false

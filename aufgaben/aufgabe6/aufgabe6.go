@@ -12,10 +12,6 @@ package aufgabe6
 // Liefert eine Liste mit allen bekannten Übersetzungen des gegebenen Wortes.
 func (dict Dictionary) AllTranslations(de string) []string {
 	result := []string{}
-	for _, entry := range dict.Entries {
-		if entry.De == de {
-			result = append(result, entry.En)
-		}
-	}
+	// TODO
 	return result
 }
