@@ -12,11 +12,17 @@ func ExampleMod_print() {
 	fmt.Println(Mod(3, -2))
 	fmt.Println(Mod(-3, -2))
 
+	// Zusätzliche Tests, die bei der Korrektur dabei wären:
+	fmt.Println(Mod(13, 2))
+	fmt.Println(Mod(2, 5))
+
 	// Output:
 	// 1
 	// -1
 	// 1
 	// -1
+	// 1
+	// 2
 }
 
 // Die Funktion soll sich in allen Belangen so verhalten,
