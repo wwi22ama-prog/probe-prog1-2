@@ -15,6 +15,8 @@ func ExampleMod_print() {
 	// Output:
 	// 1
 	// -1
+	// 1
+	// -1
 }
 
 // Die Funktion soll sich in allen Belangen so verhalten,
